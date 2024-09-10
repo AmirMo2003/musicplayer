@@ -1,0 +1,77 @@
+.musics {
+    border-radius: 5rem !important;
+}
+
+.cardF {
+    border: none !important;
+    border-bottom: 1px solid silver !important;
+    box-shadow: 1cqh 1px 5px rgb(43, 42, 42);
+}
+
+.cardList:hover {
+    background-color: rgb(87, 87, 81) !important;
+}
+
+.PlayingMusic {
+    background-color: rgb(99, 99, 96) !important;
+    box-shadow: 1px 1px 10px rgb(17, 17, 17);
+}
+
+.dateText {
+    font-size: .8rem;
+    margin-top: .1rem;
+}
+
+.playIcon {
+    opacity: 0;
+    color: aliceblue;
+    text-shadow: 2px 2px 2px rgb(94, 93, 93);
+}
+
+.fa-animaion {
+    animation: bounceIn infinite 5s;
+}
+
+@keyframes bounceIn {
+    10% {
+        color: rgb(224, 131, 24) !important;
+    }
+
+    30% {
+        color: antiquewhite;
+    }
+
+    40% {
+        color: red;
+    }
+
+    70% {
+        color: rgb(205, 43, 238);
+    }
+
+    90% {
+        color: rgb(3, 255, 213);
+    }
+
+    100% {
+        color: rgb(200, 235, 235);
+    }
+}
+
+
+@media screen and (max-width : 500px) {
+
+    .cardF {
+        margin: -.1rem;
+
+    }
+
+    .textMusicList {
+        font-size: .8rem;
+    }
+
+    .dateText {
+        font-size: .7rem !important;
+        margin: 0;
+    }
+}

@@ -1,0 +1,13 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: rgb(36, 42, 55);
+  background: url("./assets/bb103280-a211-4eec-a752-f037182f3194.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+

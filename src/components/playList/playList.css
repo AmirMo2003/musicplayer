@@ -1,0 +1,139 @@
+/* list musics & filders */
+.PlayListContainerFolder {
+    height: 12.5vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.PlayListContainerFolder::-webkit-scrollbar {
+    display: none;
+}
+
+.PlayListContentMusics {
+    height: 12.5vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.PlayListContentMusics::-webkit-scrollbar {
+    display: none;
+}
+
+/* player list */
+.PlayerList {
+    width: 100%;
+    margin-top: 1.8rem;
+}
+
+.OpenPlayList {
+    width: 100%;
+    height: 40%;
+}
+
+.containerPlayList {
+    height: 15.7vw;
+    border: 1px solid rgb(156, 156, 147);
+    border-radius: .5rem;
+    background-color: #1b1b1d;
+    box-shadow: 2px -2px 7px rgb(0, 0, 0), -2px -2px 5px rgb(8, 8, 8), 1px 1px 20px rgb(0, 0, 0);
+    padding: 1rem;
+    overflow: hidden;
+}
+
+
+.titleListMusic {
+    margin: -1rem -1rem 0 -1rem;
+    background-color: #0c0c0f;
+}
+
+.containerPlayList::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+
+/* responsive */
+
+@media screen and (max-width : 450px) {
+
+    /* playerList */
+
+    .PlayerList {
+        width: 0;
+        height: 0;
+        border-radius: 2vw;
+        position: absolute;
+        z-index: 2;
+        top: 1rem;
+        right: 2vw;
+        transition: all 1s;
+        overflow: hidden;
+    }
+
+    .OpenPlayList {
+        width: 97%;
+        height: 40%;
+    }
+
+    .containerPlayList {
+        height: 30rem !important;
+    }
+
+    .PlayListContainerFolder {
+        height: 30vw !important;
+
+    }
+
+    .PlayListContentMusics {
+        height: 23vw !important;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+    .containerPlayList {
+        height: 41vw !important;
+    }
+
+    .PlayListContainerFolder,
+    .PlayListContentMusics {
+        height: 31vw !important;
+    }
+
+}
+
+
+
+@media screen and (max-width : 320px) {
+
+
+    .PlayerList {
+        top: 1rem;
+    }
+
+    .containerPlayList {
+        height: 30rem !important;
+    }
+
+    .PlayListContainerFolder {
+        height: 30vw !important;
+
+    }
+
+    .PlayListContentMusics {
+        height: 24vw !important;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+    .containerPlayList {
+        height: 46vw !important;
+    }
+
+    .PlayListContainerFolder,
+    .PlayListContentMusics {
+        height: 34.4vw !important;
+    }
+
+}

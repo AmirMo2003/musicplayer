@@ -1,0 +1,120 @@
+
+
+
+/* Styles firstpage Component */
+
+.card-img-top {
+    width: 36% !important;
+    margin: auto;
+    box-shadow: 2px 2px 5px rgb(19, 19, 20);
+}
+
+.backgroundFirstpage {
+    background: none !important;
+    backdrop-filter: blur(180px) !important;
+    border-radius: 3rem;
+    border: 1.5px solid rgb(128, 128, 160);
+    box-shadow: 3px 4px 18px rgb(10, 10, 10), -2px -2px 5px rgb(3, 3, 3);
+}
+
+.textOne {
+    font-size: 6vw;
+    margin-top: .5rem !important;
+    font-family: Servillana, Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0 0 5px #d1c9c9 , 0 0 10px #555454 , 0 0 25px #414344 , 0 0 30px #0073e6;
+}
+
+.textTwo {
+    width: 40vw;
+    border-radius: 2rem;
+    margin: 1rem auto;
+    font-size: 4.5vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    animation: color infinite 3s;
+    color: aqua !important;
+}
+
+.iconPlayGo {
+    animation: shake infinite 1s;
+}
+
+/* animations */
+@keyframes color {
+    10% {
+        background-color: rgb(7, 6, 6);
+    }
+
+    100% {
+        background-color: rgb(78, 75, 75);
+    }
+
+}
+
+@keyframes shake {
+    0% {
+        transform: scale(.5);
+        color: black;
+    }
+}
+
+
+
+
+
+/* responsive option*/
+@media screen and (min-width: 1024px) {
+
+    .containerFirstPage {
+        margin-top: 2.9% !important;
+    }
+}
+
+@media screen and (min-width:440px),
+(max-width: 768px) {
+    .containerFirstPage {
+        margin-top: 28%;
+    }
+
+    .card-img-top {
+        width: 44%;
+    }
+
+    .textOne {
+        font-size: 9vw;
+    }
+
+    .textTwo {
+        width: 60vw;
+        font-size: 5vw;
+        margin-bottom: 2vw;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .containerFirstPage {
+        margin-top: 23%;
+    }
+
+    .card-img-top {
+        width: 75%;
+    }
+
+    .textOne {
+        font-size: 14vw;
+    }
+
+    .textTwo {
+        width: 65vw;
+        font-size: 7vw;
+        margin-bottom: 6vw;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .containerFirstPage {
+        margin-top: 2.5%;
+    }
+}
+
+
+

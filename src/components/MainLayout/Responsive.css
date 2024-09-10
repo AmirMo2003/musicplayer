@@ -1,0 +1,496 @@
+/* for pc */
+
+@media screen and (min-width : 1285px) {
+
+    /* mainLayout */
+
+    .AllContent {
+        margin-top: .67rem;
+    }
+
+    /* img player */
+
+    .imgPlayer {
+        width: 87% !important;
+        height: 27rem !important;
+        margin-top: -3rem !important;
+    }
+
+    .imgPlayerFirst {
+        width: 86% !important;
+        margin: -3.5rem 0 !important;
+    }
+
+    /* player box */
+    .boxControl {
+        margin: 1rem 0 -1rem 0 !important;
+    }
+}
+
+
+
+
+
+/* for tablet */
+
+@media screen and (max-width: 900px) {
+
+    /* mainLayout */
+
+    .AllContent {
+        margin-top: 7rem;
+    }
+
+
+    /* img player */
+
+    .imgPlayer {
+        width: 94% !important;
+        margin-top: -2rem !important;
+    }
+
+    .imgPlayerFirst {
+        width: 97% !important;
+        margin: -1rem 0 !important;
+    }
+
+
+    /* title Music */
+
+    .box2 {
+        height: 22.5rem;
+    }
+
+    .textMusic {
+        height: 25.3vw !important;
+        padding: 1.5vw !important;
+    }
+
+
+    .namemusic {
+        margin: 0 !important;
+        text-wrap: nowrap;
+    }
+
+    .dateText {
+        font-size: 1rem !important;
+    }
+
+    .iconep {
+        display: none;
+    }
+
+    .playIcon {
+        margin-right: 1rem;
+    }
+
+
+    /* serachBox */
+
+
+    .searchBox {
+        position: absolute !important;
+        z-index: 3;
+        width: 70% !important;
+        border-radius: 1rem;
+        background-color: rgb(50, 50, 54);
+        box-shadow: 1px 1px 8px rgb(16, 12, 20), -2px -2px 90px rgb(29, 29, 39);
+        padding: 3rem;
+        transition: all .5s;
+        overflow: hidden;
+        transform: scale(0);
+
+    }
+
+    /* button search and repetition */
+    .repetition,
+    .btnOpenSearchBox {
+        width: 30% !important;
+        padding: .4rem 1.5rem;
+        margin: 0 rem;
+    }
+
+    /* play List */
+
+    .containerPlayList {
+        height: 18.5rem !important;
+    }
+
+    .PlayListContainerFolder,
+    .PlayListContentMusics {
+        height: 16.16rem !important;
+    }
+
+
+
+    /* MusicFolderList in playerList */
+
+    .allbums {
+        padding: .1rem 0;
+    }
+
+}
+
+
+/* for mobile */
+
+
+@media only screen and (max-width: 500px) {
+
+
+    /* mainLayout */
+    .AllContent {
+        margin-top: 3rem;
+    }
+
+    /* buttons DrawerList */
+
+    .buttonListMusics {
+        padding: .2rem .3rem;
+        display: inline;
+        position: fixed;
+        right: .5rem;
+        top: .1rem;
+    }
+
+
+    .buttonCloseListMusics {
+        display: none;
+        position: fixed;
+        padding: .2rem .4rem;
+        right: .45rem;
+        top: .1rem;
+    }
+
+    /* img player */
+
+    .imgPlayer {
+        width: 70% !important;
+        margin: -3rem 3.5rem !important;
+        height: 14rem !important;
+    }
+
+
+    .imgPlayerFirst {
+        width: 18rem !important;
+        margin: -3rem auto !important;
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+    /* title Music */
+
+    .box2 {
+        height: 13.5rem;
+        margin-top: 1.5rem !important;
+        box-shadow: none !important;
+    }
+
+    .TitlePlayer {
+        height: 2.6rem;
+        margin: 2.6rem !important;
+    }
+
+    .textMusic {
+        width: 20rem !important;
+        margin-top: -2.3rem !important;
+        height: 34vw !important;
+    }
+
+    .footerTitle {
+        margin-top: .65rem !important;
+    }
+
+    .footerTitle button {
+        width: 8rem !important;
+        margin-top: .3rem;
+    }
+
+
+
+    /* search box */
+
+    .searchBox {
+        position: absolute !important;
+        z-index: 3;
+        width: 80% !important;
+        right: 3rem !important;
+        top: 30% !important;
+        padding: 1rem !important;
+    }
+
+
+    .serachResult {
+        width: 90% !important;
+        height: 8.8rem !important;
+        margin: auto !important;
+        margin-bottom: 2rem !important;
+    }
+
+    .textContentSearch {
+        display: none;
+    }
+
+    .buttonCloseSearchBox {
+        margin-left: 1rem !important;
+    }
+
+
+    .form-control {
+        width: 75% !important;
+        margin-top: 1rem;
+        margin-bottom: .5rem !important;
+    }
+
+    .btn-outline-light {
+        margin-bottom: 1rem;
+    }
+
+
+    .errors {
+        margin-top: 3rem !important;
+    }
+
+    /* playerBox */
+
+    .boxControl {
+        margin-top: 4.4rem !important;
+    }
+
+
+    /* musicList */
+    .namemusic {
+        margin: 0 !important;
+    }
+
+    .dateText {
+        font-size: .7rem;
+        margin-top: .2rem;
+        margin: .2rem 1rem 0 0;
+    }
+
+    .iconep {
+        display: none;
+    }
+
+    .playIcon {
+        margin-right: 1rem;
+    }
+
+    .fa-animaion {
+        animation: bounceIn infinite 5s;
+    }
+
+    .allbum {
+        display: none;
+    }
+
+}
+
+/* for mobile */
+
+@media screen and (max-width : 360px) {
+
+    /* mainLayout */
+
+    .AllContent {
+        margin-top: 3rem;
+    }
+
+    /* imgs */
+
+    .imgPlayer {
+        width: 85% !important;
+        margin: -2.8rem 1.6rem !important;
+        height: 15rem !important;
+    }
+
+
+    .imgPlayerFirst {
+        width: 18rem !important;
+        width: 18rem !important;
+        margin: -2.7rem auto !important;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    /* playerBox */
+
+    .boxControl {
+        margin-top: 2.5rem !important;
+    }
+
+
+    /* title Music */
+
+    .footerTitle {
+        margin-top: .3rem !important;
+    }
+
+    .footerTitle button {
+        width: 40% !important;
+        padding: .1rem 2.8rem;
+        margin-top: .6rem;
+
+    }
+
+    /* btn search and repetition */
+
+    .btn-group {
+        margin-top: -.7rem !important;
+    }
+
+    .fa-search {
+        padding-bottom: .66rem;
+    }
+
+    /* playerBox */
+
+    .boxControl {
+        margin-top: 2.7rem !important;
+    }
+
+
+}
+
+
+/* for mobile */
+
+@media screen and (max-width : 320px) {
+
+    /* mainLayout */
+
+    .AllContent {
+        height: 30rem;
+        margin-top: 0rem;
+    }
+
+    /* imgs */
+
+    .imgPlayer {
+        width: 84% !important;
+        margin: -3.8rem 1.5rem !important;
+        height: 12rem !important;
+    }
+
+
+    .imgPlayerFirst {
+        width: 88% !important;
+        margin: -3.7rem 1.1rem !important;
+    }
+
+
+    /* title Music */
+
+    .box2 {
+        margin-top: 7.5rem !important;
+        margin-bottom: -4rem;
+        box-shadow: none !important;
+    }
+
+    .TitlePlayer {
+        margin: -2.8rem !important;
+    }
+
+    .textMusic {
+        width: 17rem !important;
+        margin-top: 1.9rem !important;
+        height: 34vw !important;
+    }
+
+    .footerTitle {
+        margin-top: .3rem !important;
+    }
+
+    .footerTitle button {
+        width: 40% !important;
+        padding: .1rem 2.5rem;
+        margin-top: .3rem;
+
+    }
+
+    /* btn search and repetition */
+
+    .btn-group {
+        margin-top: -.3rem !important;
+    }
+
+    .fa-search {
+        padding-bottom: .66rem;
+    }
+
+    /* search box */
+
+    .searchBox {
+        top: 14% !important;
+    }
+
+    .buttonCloseSearchBox {
+        margin-left: 1rem !important;
+    }
+
+    .btn-outline-light {
+        padding: 0 !important;
+    }
+
+    .btnResualtSearch {
+        display: flex;
+        justify-content: center;
+        margin-left: 2.5rem !important;
+        overflow: hidden;
+        font-size: .9rem !important;
+
+    }
+
+    .errors {
+        margin-top: 3rem !important;
+        font-size: 1.3rem !important;
+    }
+
+
+    /* playerBox */
+
+    .boxControl {
+        margin-top: -1rem !important;
+    }
+
+
+    /* player list */
+
+    /* musicList */
+
+    .namemusic {
+        margin: 0 !important;
+    }
+
+    .dateText {
+        font-size: .7rem;
+        margin-top: .2rem;
+        margin: .2rem 1rem 0 0;
+    }
+
+    .iconep {
+        display: none;
+    }
+
+    .playIcon {
+        margin-right: 1rem;
+    }
+
+    .fa-animaion {
+        animation: bounceIn infinite 5s;
+    }
+
+    .allbum {
+        display: none;
+    }
+
+    .dateText {
+        display: none;
+    }
+
+
+}

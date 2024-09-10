@@ -1,0 +1,16 @@
+/* img */
+.imgPlayer {
+    width: 87%;
+    height: 32.5vw;
+    border-radius: 1.5rem;
+    margin: -3.2rem 0 0 .2rem;
+    box-shadow: 2px 2px 19px rgb(0, 0, 0), -2px -2px 5px rgb(71, 70, 70), 1px 1px 1px rgb(0, 0, 0);
+}
+
+.imgPlayerFirst {
+    width: 95%;
+    border-radius: 1.5rem;
+    margin: -2.7rem 0 0 .2rem;
+    box-shadow: 2px 2px 19px rgb(0, 0, 0), -2px -2px 5px rgb(71, 70, 70), 1px 1px 1px rgb(0, 0, 0);
+}
+

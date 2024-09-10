@@ -1,0 +1,32 @@
+.allbums {
+    border-radius: 5rem !important;
+}
+
+.cardM {
+    border: none !important;
+    border-bottom: 1px solid silver !important;
+    text-wrap: nowrap;
+    text-overflow: ellipsis;
+}
+
+.EntercardMusics {
+    background-color: rgb(95, 95, 90) !important;
+}
+
+.cardMusics:hover {
+    background-color: rgb(77, 77, 72) !important;
+}
+
+@media screen and (max-width : 400px) {
+
+    .cardM {
+        padding: -10rem !important;
+        margin: -.1rem !important;
+        font-size: .74rem;
+    }
+
+    .allbums {
+        margin: 0 !important;
+    }
+
+}
